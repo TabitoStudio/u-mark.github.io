@@ -1,20 +1,39 @@
 /* solid001 */
-.button_solid001 a {
+.button_solid001{
+    display: flex;
+    justify-content: space-around;
+}
+#mosi{
+  background: url("../img/button/mosi.png") no-repeat;
+  background-size: cover;
+}
+#yosomon{
+  background: url("../img/button/yosomon.png") no-repeat;
+  background-size: contain;
+}
+#koukai{
+  background: url("../img/button/koukai.png") no-repeat;
+  background-size: contain;
+}
+.button_solid001 a{
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     max-width: 240px;
-    padding: 10px 25px;
+    padding: 16% 16%;
     color: #313131;
     transition: 0.3s ease-in-out;
     font-weight: 600;
-    background: #eee;
+    /*background: #eee;*/
+    /*background: url("../img/kabe.png") no-repeat;*/
+    /*background-size: contain;*/
     filter: drop-shadow(0px 2px 4px #ccc);
     border-radius: 3px;
 }
 .button_solid001 a:hover {
-    transform: translateY(-2px);
+    transform: translateY(-6px);
+    background:#FF2F2F;
     box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
 }
