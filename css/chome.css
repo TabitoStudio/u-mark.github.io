@@ -37,3 +37,15 @@
     background:#FF2F2F;
     box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
 }
+h2 {
+  position: relative;
+  padding: 0.25em 0;
+}
+h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+  color: #6eb0f9;
+}
