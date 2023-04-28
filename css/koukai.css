@@ -36,16 +36,20 @@
     display: flex;
     justify-content: space-around;
 }
-#mosi{
-  background: url("../img/button/mosi.png") no-repeat;
+#sugaku{
+  background: url("../img/button/sugaku.png") no-repeat;
   background-size: cover;
 }
-#yosomon{
-  background: url("../img/button/yosomon.png") no-repeat;
+#tiri{
+  background: url("../img/button/tiri.png") no-repeat;
   background-size: contain;
 }
-#koukai{
-  background: url("../img/button/koukai.png") no-repeat;
+#kagaku{
+  background: url("../img/button/kagaku.png") no-repeat;
+  background-size: contain;
+}
+#buturi{
+  background: url("../img/button/buturi.png") no-repeat;
   background-size: contain;
 }
 .button_solid002 a{
@@ -55,7 +59,7 @@
     align-items: center;
     margin: 0 auto;
     max-width: 240px;
-    padding: 16% 16%;
+    padding: 12% 12%;
     color: #313131;
     transition: 0.3s ease-in-out;
     font-weight: 600;
@@ -69,16 +73,4 @@
     transform: translateY(-6px);
     background:#FF2F2F;
     box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
-}
-h2 {
-  position: relative;
-  padding: 0.25em 0;
-}
-h2:after {
-  content: "";
-  display: block;
-  height: 4px;
-  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
-  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
-  color: #6eb0f9;
 }

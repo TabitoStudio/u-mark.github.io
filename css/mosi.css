@@ -1,0 +1,33 @@
+.button_solid001{
+    display: flex;
+    justify-content:flex-start;
+}
+#home{
+  background: url("../img/button/home.png") no-repeat;
+  background-size: cover;
+}
+#back{
+  background: url("../img/button/back.png") no-repeat;
+  background-size: cover;
+}
+.button_solid001 a{
+    position: relative;
+    display: flex;
+    justify-content:flex-start;
+    align-items: start;
+    max-width: 240px;
+    padding: 5% 5%;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    /*background: #eee;*/
+    /*background: url("../img/kabe.png") no-repeat;*/
+    /*background-size: contain;*/
+
+    border-radius: 3px;
+}
+.button_solid001 a:hover {
+    transform: translateY(-6px);
+    background:#FF2F2F;
+    box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
+}
