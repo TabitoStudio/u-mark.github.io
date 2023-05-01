@@ -56,6 +56,10 @@ body{
   background: url("../img/button/buturi.png") no-repeat;
   background-size: contain;
 }
+#syorui{
+  background: url("../img/button/syorui.png") no-repeat;
+  background-size: contain;
+}
 .button_solid002 a{
     position: relative;
     display: flex;
@@ -74,6 +78,31 @@ body{
     border-radius: 3px;
 }
 .button_solid002 a:hover {
+    transform: translateY(-6px);
+    background:#FF2F2F;
+    box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
+}
+.button_solid003{
+    display: flex;
+    justify-content:flex-start;
+}
+.button_solid003 a{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 240px;
+    padding: 12% 12%;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    /*background: #eee;*/
+    /*background: url("../img/kabe.png") no-repeat;*/
+    /*background-size: contain;*/
+    filter: drop-shadow(0px 2px 4px #ccc);
+    border-radius: 3px;
+}
+.button_solid003 a:hover {
     transform: translateY(-6px);
     background:#FF2F2F;
     box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
