@@ -86,3 +86,6 @@ h2:after {
   background: linear-gradient(to right, rgb(230, 90, 90), transparent);
   color: #6eb0f9;
 }
+#version{
+  position: absolute; right: 0; bottom: 0; 
+}
